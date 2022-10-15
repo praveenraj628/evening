@@ -12,6 +12,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Task11 {
+	private void tamil() {
+		System.out.println("praveen");
+	}
 	public static void main(String[] args) throws IOException {
 		System.setProperty("webdriver.chrome.driver","D:\\Users\\DELL\\eclipse-workspace\\DNNVNVNVN\\driver\\chromedriver.exe");
 		WebDriver driver =new ChromeDriver();
@@ -27,6 +30,7 @@ public class Task11 {
 		File fi = new File("D:\\Users\\DELL\\eclipse-workspace\\Screenshot\\Screenshiot\\task11.png");
 		FileUtils.copyFile(f, fi);
 		System.out.println("done");
+		
 	}
 
 }
